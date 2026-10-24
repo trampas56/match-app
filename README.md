@@ -1,6 +1,15 @@
 # Match app
 
-A Spring Boot web app for managing sports matches and their betting odds. You can add, edit and delete matches, and the odds of each match. It follows MVC, with Thymeleaf pages and a PostgreSQL database. I made it in Eclipse.
+A Spring Boot web app for managing sports matches and their betting odds. You can add, edit and delete matches, and the odds of each match. It follows MVC, with Thymeleaf pages and a PostgreSQL database with just two tables, the matches and the odds of each match. I made it in Eclipse.
+
+![The list of matches](images/matches.png)
+
+<table>
+  <tr>
+    <td width="50%"><img src="images/add-match.png" alt="The form for a new match"></td>
+    <td width="50%"><img src="images/odds.png" alt="The odds of a match"></td>
+  </tr>
+</table>
 
 ## Running it
 

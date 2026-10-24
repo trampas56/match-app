@@ -4,10 +4,10 @@ A Spring Boot web app for managing sports matches and their betting odds. You ca
 
 ## Running it
 
-You need Java 23, Maven and PostgreSQL. Create a database called `matchDB`. The connection settings are in `src/main/resources/application.properties` (user `postgres` on `localhost:5432`), change them if yours are different. Then:
+You need Java 23 and PostgreSQL. Maven isn't needed, `./mvnw` downloads it the first time (on Windows use `mvnw.cmd`). Create a database called `matchDB`. The connection settings are in `src/main/resources/application.properties` (user `postgres` on `localhost:5432`), change them if yours are different. Then:
 
 ```bash
-mvn spring-boot:run
+./mvnw spring-boot:run
 ```
 
 and open http://localhost:8080. The tables are created automatically.
